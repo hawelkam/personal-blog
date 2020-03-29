@@ -3,12 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/blog-post.css">
     <title>Document</title>
 </head>
 <body>
-    <header></header>
-    <aside></aside>
-    <article></article>
-    <footer></footer>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v6.0&appId=191583361208170&autoLogAppEvents=1"></script>
+    <div class="container">
+        <header>
+            <h1>My Personal Blog</h1>
+            <div class="search">
+                <input type="text">
+                <a href="#"><i class="material-icons">search</i></a>
+            </div>
+        </header>
+        <aside>
+            <div class="bio">
+                <img src="img/author.png" alt="image of an author">
+                <h3>Michał Hawełka</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ex ratione dolores et nulla, eligendi cum dolore deleniti laudantium numquam adipisci laboriosam alias veritatis sequi vel! Ab dolorum harum officiis.</p>
+            </div>
+            <div class="recent-posts">
+                <h3>Recent posts:</h3>
+                <a href="#">Some previous post</a>
+                <a href="#">Some previous post</a>
+                <a href="#">Some previous post</a>
+                <a href="#">Some previous post</a>
+                <a href="#">Some previous post</a>
+            </div>
+        </aside>
+        <article>
+            <a href="index.html" class="back-button">Go back</a>
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <div class="post-image">
+                <img src="img/laptop.jpg" alt="image of a laptop">
+                <figcaption>Lorem ipsum dolor sit.</figcaption>
+            </div>
+            <div class="content">
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, eveniet maiores soluta temporibus rem voluptatem?</b></p>
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, impedit?</p>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolore dolorum, tenetur magni ut numquam est consectetur. Soluta architecto atque explicabo illum, accusamus, quia, quae ex aperiam quod neque labore.</p>
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur magnam velit totam dicta asperiores quam perferendis, excepturi magni tempore <u>laudantium eligendi corrupti</u> culpa autem soluta quaerat nemo minus optio quo, odio voluptatem, incidunt officiis vel eos. Error, doloribus cumque.</p>
+                <blockquote><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ad!</em></blockquote>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo repellat neque modi deserunt accusamus atque id cupiditate placeat dicta numquam itaque, ipsam architecto ad commodi quae iure eaque ipsa alias quod natus nesciunt ab? Quasi tempore eos aliquid repellat?</p>
+            </div>
+            <div class="social-share">
+                <div class="fb-share-button" data-href="http://google.com" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgoogle.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </article>
+        <footer><p>All Rights Reserved, Michał Hawełka 2020</p></footer>
+    </div>
 </body>
 </html>

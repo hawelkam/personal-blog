@@ -1,0 +1,16 @@
+body {
+    margin: 0px auto;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width:1024px) {
+    body {
+        width: 1024px;
+    }
+}

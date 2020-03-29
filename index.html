@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Personal Blog Project</title>
 </head>
@@ -10,31 +13,42 @@
     <div class="container">
         <header>
             <h1>My Personal Blog</h1>
-            <button>Search</button>
+            <div class="search">
+                <input type="text">
+                <a href="#"><i class="material-icons">search</i></a>
+            </div>
         </header>
         <main>
-            <div class="card">
-                <img src="#" alt="">
-                <h2>Example Blog Post</h2>
-                <a href="#">Read more...</a>
+            <div class="cards">
+                <div id="card1" class="card">
+                    <img src="img/laptop.jpg" alt="image of a laptop on a desk">
+                    <h2>Example Blog Post</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nobis?</p>
+                    <a href="blog-post.html">Read more...</a>
+                </div>
+                <div class="card">
+                    <img src="img/legos.jpg" alt="image of lego darth vader using force grip">
+                    <h2>Example Blog Post</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nobis?</p>
+                    <a href="#">Read more...</a>
+                </div>
+                <div class="card">
+                    <img src="img/pakchoi.jpg" alt="image of a pak choi">
+                    <h2>Example Blog Post</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nobis?</p>
+                    <a href="#">Read more...</a>
+                </div>
+                <div class="card">
+                    <img src="img/water.jpg" alt="image of feet in the water">
+                    <h2>Example Blog Post</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nobis?</p>
+                    <a href="#">Read more...</a>
+                </div>
             </div>
-            <div class="card">
-                <img src="#" alt="">
-                <h2>Example Blog Post</h2>
-                <a href="#">Read more...</a>
+            <div class="page-nav">
+                <a href="" class="next">Newer posts</a>
+                <a href="" class="prev">Older posts</a>
             </div>
-            <div class="card">
-                <img src="#" alt="">
-                <h2>Example Blog Post</h2>
-                <a href="#">Read more...</a>
-            </div>
-            <div class="card">
-                <img src="#" alt="">
-                <h2>Example Blog Post</h2>
-                <a href="#">Read more...</a>
-            </div>
-            <button class="next">Newer posts</button>
-            <button class="prev">Older posts</button>
         </main>
         <footer><p>All Rights Reserved, Michał Hawełka 2020</p></footer>
     </div>
